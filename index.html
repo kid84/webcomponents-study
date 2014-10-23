@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>WebComponents</title>
+    <link rel="import" href="test.html">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+    /*ここでimg全部を円形指定*/
+    img{
+      border-radius: 100%;
+    }
+    </style>
+</head>
+<body>
+<script>
+      var AtraeImage = Object.create(HTMLElement.prototype);
+      AtraeImage.createdCallback = function() {
+        var shadow = this.createShadowRoot();
+        shadow.innerHTML =
+        '<style>img{border-radius: 10px;}</style>'+
+        '<img src="http://atrae.co.jp/img/superbox/08_full.jpg" alt="AtraeImage" width="200">'
+      };
+
+      document.registerElement('atrae-image', {
+        prototype: AtraeImage
+      });
+</script>
+    <h1>web components test</h1>
+
+
+  <img src="http://atrae.co.jp/img/superbox/08_full.jpg" alt="AtraeImage" width="200">
+  <atrae-image></atrae-image>
+  <img src="http://atrae.co.jp/img/superbox/08_full.jpg" alt="AtraeImage" width="200">
+
+
+  <x-hello></x-hello>
+</body>
+</html>

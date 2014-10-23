@@ -1,0 +1,17 @@
+<script>
+(function() {
+  var Hello = Object.create(HTMLElement.prototype);
+ 
+  Hello.createdCallback = function() {
+    var shadow = this.createShadowRoot();
+    <% if false %>
+    shadow.innerHTML = '<link rel="stylesheet" href="/stylesheets/style.css">'+
+        '<style>img{border-radius: 50px;}</style>'+
+        '<img src="http://atrae.co.jp/img/superbox/08_full.jpg" alt="AtraeImage" width="200">';
+  };
+ 
+  document.registerElement('x-hello', {
+    prototype: Hello,
+  });
+})();
+</script>

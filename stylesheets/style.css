@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* line 17, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+/* line 22, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+
+/* line 24, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+
+/* line 26, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 28, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 30, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+/* line 32, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+
+/* line 116, /Users/hashikawa/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+/* line 5, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/_module.scss */
+.container nav:after { content: ""; display: block; clear: both; }
+
+/* line 44, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.button, .button::before, .button::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; }
+
+/* line 51, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn-flat { display: inline-block; width: 200px; height: 54px; text-align: center; text-decoration: none; line-height: 54px; outline: none; position: relative; background: #1abc9c; border-radius: 4px; color: #fff; line-height: 52px; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.1s; -moz-transition-duration: 0.1s; -o-transition-duration: 0.1s; transition-duration: 0.1s; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; box-shadow: 0 3px 0 #0e8c73; box-shadow: 0 3px 0 #117964; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+/* line 19, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn-flat::before, .btn-flat::after { position: absolute; z-index: -1; display: block; content: ''; }
+/* line 67, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn-flat:hover { letter-spacing: 5px; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; }
+/* line 75, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn-flat:active { top: 3px; box-shadow: none; }
+
+/* line 118, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn2 { display: inline-block; width: 200px; height: 54px; text-align: center; text-decoration: none; line-height: 54px; outline: none; top: 0; position: relative; background: #3498db; border-radius: 4px; color: #fff; line-height: 52px; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.1s; -moz-transition-duration: 0.1s; -o-transition-duration: 0.1s; transition-duration: 0.1s; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; box-shadow: 0 3px 0 #1d6fa5; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+/* line 19, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn2::before, .btn2::after { position: absolute; z-index: -1; display: block; content: ''; }
+/* line 100, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn2:hover { top: 3px; background: #1d6fa5; box-shadow: none; letter-spacing: 2px; -webkit-transition-property: all; -moz-transition-property: all; -o-transition-property: all; transition-property: all; -webkit-transition-duration: 0.1s; -moz-transition-duration: 0.1s; -o-transition-duration: 0.1s; transition-duration: 0.1s; -webkit-transition-timing-function: ease-in; -moz-transition-timing-function: ease-in; -o-transition-timing-function: ease-in; transition-timing-function: ease-in; }
+/* line 112, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_button.scss */
+.btn2:active { top: 3px; box-shadow: none; }
+
+/* line 11, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+body { background: #f5f5f5; }
+
+/* line 14, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.container { width: 960px; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 10px; }
+
+/* line 20, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.box { position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 200px; height: 200px; margin-top: 10px; background: #fff; padding: 10px; }
+/* line 98, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_zurui.scss */
+.box:after { position: absolute; content: ''; display: block; border: 6px solid transparent; border-bottom: 6px solid white; top: -12px; left: 6px; }
+/* line 33, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.box h2 { padding-left: 5px; border-left: 5px solid red; border-bottom: 2px solid red; color: red; }
+/* line 36, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.box a { color: black; text-decoration: none; }
+/* line 26, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/_module.scss */
+.box a:before { content: '×'; color: black; padding: 1px 3px 2px 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid black; margin-right: 5px; width: 10px; height: 10px; }
+
+/* line 42, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.bg-test1, .bg-test2 { -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 200px; margin-top: 20px; width: 100%; }
+
+/* line 49, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.bg-test1 { background-color: lightseagreen; background-image: radial-gradient(at 25% 25%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 15%, transparent 17%, transparent 100%), radial-gradient(at 75% 75%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 15%, transparent 17%, transparent 100%); -webkit-background-size: 30px 30px; -moz-background-size: 30px 30px; -o-background-size: 30px 30px; background-size: 30px 30px; }
+
+/* line 53, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.bg-test2 { background-color: indianred; background-image: linear-gradient(to right top, rgba(255, 255, 255, 0.3) 24.5%, transparent 25.5%, transparent 74.5%, rgba(255, 255, 255, 0.3) 75.5%), linear-gradient(to left top, rgba(255, 255, 255, 0.3) 24.5%, transparent 25.5%, transparent 74.5%, rgba(255, 255, 255, 0.3) 75.5%); -webkit-background-size: 20px 35px; -moz-background-size: 20px 35px; -o-background-size: 20px 35px; background-size: 20px 35px; }
+
+/* line 58, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.zuruiBtn { display: inline-block; background-origin: border-box; position: relative; text-shadow: 1px -1px rgba(0, 0, 0, 0.1); background-color: tomato; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF7960', endColorstr='#FFFF6347'); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff7960), color-stop(100%, #ff6347)); background-image: -webkit-linear-gradient(#ff7960 0%, #ff6347 100%); background-image: -moz-linear-gradient(#ff7960 0%, #ff6347 100%); background-image: -o-linear-gradient(#ff7960 0%, #ff6347 100%); background-image: linear-gradient(#ff7960 0%, #ff6347 100%); -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-shadow: rgba(0, 0, 0, 0.1) -1px 1px 0, rgba(255, 255, 255, 0.2) -1px 1px 0 inset; -moz-box-shadow: rgba(0, 0, 0, 0.1) -1px 1px 0, rgba(255, 255, 255, 0.2) -1px 1px 0 inset; box-shadow: rgba(0, 0, 0, 0.1) -1px 1px 0, rgba(255, 255, 255, 0.2) -1px 1px 0 inset; color: rgba(255, 255, 255, 0.9); text-align: center; font-size: 14px; padding: 0 28px; height: 42px; line-height: 42px; }
+/* line 153, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_zurui.scss */
+.zuruiBtn i { font-size: 130%; margin-right: 5px; color: rgba(255, 255, 255, 0.5); }
+/* line 158, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_zurui.scss */
+.zuruiBtn:hover { background-color: #ff7960; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF8E7A', endColorstr='#FFFF7960'); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff8e7a), color-stop(100%, #ff7960)); background-image: -webkit-linear-gradient(#ff8e7a 0%, #ff7960 100%); background-image: -moz-linear-gradient(#ff8e7a 0%, #ff7960 100%); background-image: -o-linear-gradient(#ff8e7a 0%, #ff7960 100%); background-image: linear-gradient(#ff8e7a 0%, #ff7960 100%); text-decoration: none; color: white; }
+/* line 162, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_zurui.scss */
+.zuruiBtn:hover i { color: white; }
+/* line 166, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/include/_zurui.scss */
+.zuruiBtn:active { background-color: tomato; *zoom: 1; filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF7960', endColorstr='#FFFF6347'); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff7960), color-stop(100%, #ff6347)); background-image: -webkit-linear-gradient(#ff7960 0%, #ff6347 100%); background-image: -moz-linear-gradient(#ff7960 0%, #ff6347 100%); background-image: -o-linear-gradient(#ff7960 0%, #ff6347 100%); background-image: linear-gradient(#ff7960 0%, #ff6347 100%); top: 1px; }
+
+/* line 62, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.container nav { /* clearfix is applied to this selector in other line */ width: 100%; position: relative; }
+/* line 66, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.container nav ul { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; left: 50%; margin-left: -50%; padding: 10px 0; position: absolute; transition-property: top,width,margin; transition-duration: 500ms; width: 100%; }
+/* line 75, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+.container nav ul li { float: left; width: 25%; text-align: center; }
+
+/* line 84, /Users/hashikawa/Dropbox/code/middleman/components/source/stylesheets/style.scss */
+img { border: 3px solid red; }
